@@ -77,8 +77,7 @@ Source code files should adhere to the following:
 \end{table}
 
 \begin{lstlisting}
-#ifndef OV2_FILE_NAME_H_
-#define OV2_FILE_NAME_H_
+#pragma once
 #include<stdio.h>
 #include<iostream>
 // A comment
@@ -95,8 +94,6 @@ bool isColourGreyscale(RGBColour c);
 class Something {
 
 };
-
-#endif
 \end{lstlisting}
 
 %=====================================
